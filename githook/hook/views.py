@@ -5,7 +5,6 @@ import json
 import logging
 
 
-# Create your views here.
 @csrf_exempt
 def index(request):
     if request.method =='POST':
